@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail/ CSS Grid</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body {
+            height: 100vh;
+            max-width: fit-content;
+            margin: 0 auto;
+        }
+
+        .holy-grail-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas: 
+            "header header header"
+            "left main right"
+            "footer footer footer";
+            /* gap: 20px; */
+            height: 100vh;
+            margin: 0;
+
+        }
+
+        .holy-grail-header,
+        .holy-grail-left,
+        .holy-grail-middle,
+        .holy-grail-right,
+        .holy-grail-footer {
+            padding: 
+        }
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
